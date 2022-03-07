@@ -96,7 +96,7 @@ var (
 		Associativity: operators.L,
 		Args:          1,
 		Operation: func(args []float64) float64 {
-			return (-90 * ((math.Pi * math.Atan(args[0]) / 90) - math.Pi)) / math.Pi
+			return math.Pi/2 - math.Atan(args[0])
 		},
 	}
 	asec = &operators.Operator{
