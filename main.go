@@ -9,7 +9,7 @@ import (
 )
 
 import (
-	"github.com/alfredxing/calc/compute"
+	"github.com/ei14/calc/compute"
 )
 
 import (

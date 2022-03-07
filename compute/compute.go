@@ -9,9 +9,9 @@ import (
 )
 
 import (
-	"github.com/alfredxing/calc/constants"
-	"github.com/alfredxing/calc/operators"
-	"github.com/alfredxing/calc/operators/functions"
+	"github.com/ei14/calc/constants"
+	"github.com/ei14/calc/operators"
+	"github.com/ei14/calc/operators/functions"
 )
 
 var resHistory = []float64{}
